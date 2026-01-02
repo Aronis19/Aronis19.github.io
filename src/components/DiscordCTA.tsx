@@ -24,7 +24,7 @@ export const DiscordCTA = () => {
             <div className="relative grid md:grid-cols-2 gap-8 items-center">
               {/* Text Content */}
               <div>
-                <h2 className="font-display text-3xl md:text-4xl tracking-wider text-foreground mb-4">
+                <h2 className="font-display font-bold text-3xl md:text-4xl uppercase tracking-wider text-foreground mb-4">
                   Připoj se k nám
                 </h2>
                 <p className="text-muted-foreground mb-6">

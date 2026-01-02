@@ -8,7 +8,7 @@ export const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <Link to="/" className="inline-block mb-4">
-              <span className="font-display text-3xl tracking-wider text-primary text-glow">
+              <span className="font-display font-bold text-3xl tracking-wider text-primary text-glow">
                 REOXX.CZ
               </span>
             </Link>
