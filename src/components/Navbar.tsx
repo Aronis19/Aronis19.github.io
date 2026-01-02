@@ -3,6 +3,7 @@ import { Menu, X, ShoppingCart, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import reoxxLogo from "@/assets/reoxx-logo.png";
 
 const navLinks = [
   { name: "Domů", path: "/" },
@@ -21,9 +22,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="font-display text-3xl tracking-wider text-primary text-glow">
-              REOXX.CZ
-            </span>
+            <img 
+              src={reoxxLogo} 
+              alt="REOXX.CZ" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
