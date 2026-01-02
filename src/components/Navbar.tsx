@@ -22,7 +22,7 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <span className="font-display text-3xl tracking-wider text-primary text-glow">
-              RAJCE
+              REOXX.CZ
             </span>
           </Link>
 

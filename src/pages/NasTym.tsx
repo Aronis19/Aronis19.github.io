@@ -57,7 +57,7 @@ const NasTym = () => {
     <Layout>
       <Hero 
         title="NÁŠ TÝM" 
-        subtitle="Poznej lidi, kteří stojí za projektem Rajče.pro"
+        subtitle="Poznej lidi, kteří stojí za projektem Reoxx.cz"
         backgroundImage={heroBg}
         showServerAddress
       />

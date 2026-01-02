@@ -47,7 +47,7 @@ const Index = () => {
     <Layout>
       {/* Hero Section */}
       <Hero 
-        title="RAJČE.PRO" 
+        title="REOXX.CZ"
         backgroundImage={heroBg}
       />
 
@@ -56,7 +56,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="bg-card rounded-2xl p-8 md:p-12 border border-border">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              O <span className="gradient-text">Rajče.pro</span>
+              O <span className="gradient-text">Reoxx.cz</span>
             </h3>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               Jsme novodobý Minecraft server, který se zaměřuje na oddechové hraní těch nejpropracovanějších miniher. 
