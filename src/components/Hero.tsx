@@ -41,7 +41,7 @@ export const Hero = ({
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl tracking-wider text-foreground mb-6 animate-fade-in">
+        <h1 className="font-display font-bold text-6xl sm:text-7xl md:text-8xl lg:text-9xl uppercase tracking-wider text-foreground mb-6 animate-fade-in">
           {title}
         </h1>
         
