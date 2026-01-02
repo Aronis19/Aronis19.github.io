@@ -16,7 +16,7 @@ export const Hero = ({
   backgroundImage 
 }: HeroProps) => {
   const [copied, setCopied] = useState(false);
-  const serverAddress = "mc.rajce.pro";
+  const serverAddress = "mc.reoxx.cz";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(serverAddress);

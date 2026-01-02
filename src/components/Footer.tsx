@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <Link to="/" className="inline-block mb-4">
               <span className="font-display text-3xl tracking-wider text-primary text-glow">
-                RAJCE
+                REOXX.CZ
               </span>
             </Link>
             <p className="text-muted-foreground max-w-md">
@@ -50,7 +50,7 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <span className="text-muted-foreground">Server: </span>
-                <span className="text-primary font-mono">mc.rajce.pro</span>
+                <span className="text-primary font-mono">mc.reoxx.cz</span>
               </li>
               <li>
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -69,7 +69,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Rajce.pro. Všechna práva vyhrazena.
+            © {new Date().getFullYear()} Reoxx.cz. Všechna práva vyhrazena.
           </p>
         </div>
       </div>
