@@ -9,8 +9,8 @@ import heroBg from "@/assets/hero-bg.jpg";
 const gameModes = [
   {
     icon: <Skull className="w-7 h-7" />,
-    title: "Pratice",
-    description: "Propracovaný practice na CPvP, klasické swordy, npoty, a mnoho dalšího!"
+    title: "Practice",
+    description: "Propracovaný practice na CPvP, klasické swordy, NPoty, a mnoho dalšího!"
   }
 ];
 
@@ -19,11 +19,6 @@ const features = [
     icon: <Shield className="w-7 h-7" />,
     title: "Anti-cheat systém",
     description: "Propracovaný anti-cheat systém zajišťuje férové hraní pro všechny hráče."
-  },
-  {
-    icon: <Users className="w-7 h-7" />,
-    title: "Aktivní komunita",
-    description: "Tisíce aktivních hráčů denně. Připoj se k největší české a slovenské Minecraft komunitě."
   },
   {
     icon: <Sword className="w-7 h-7" />,
