@@ -13,7 +13,7 @@ export const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground max-w-md">
-              Novodobý Minecraft server zaměřený na oddechové hraní těch nejpropracovanějších miniher.
+              Novodobý Minecraft server zaměřený na oddechové hraní těch nejpropracovanějších miniher. Nejedná se o oficiální produkt Minecraftu. Nejsme spojeni s Mojang Studios.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Reoxx.cz. Všechna práva vyhrazena.
+            © {new Date().getFullYear()} Reoxx.cz. Všechna práva vyhrazena. | Vytvořeno D3koo_ a týmem.
           </p>
         </div>
       </div>
