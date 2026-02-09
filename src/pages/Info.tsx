@@ -8,6 +8,7 @@ const stats = [
   { icon: <Server className="w-8 h-8" />, value: "24/7", label: "Online" },
   { icon: <Globe className="w-8 h-8" />, value: "CZ/SK", label: "Komunita" },
   { icon: <Gamepad2 className="w-8 h-8" />, value: "1.20-1.21", label: "Verze" },
+  { icon: <Server className="w-8 h-8" />, value: "Custom Texture Pack", label: "Nejlepší zážitek" },
 ];
 
 const infoSections = [
