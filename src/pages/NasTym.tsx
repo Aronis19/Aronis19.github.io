@@ -12,7 +12,7 @@ const teamSections = [
   {
     title: "Vedení serveru",
     members: [
-      { name: "Hestreng", role: "Majitel", roleColor: "owner" as const },
+      { name: "D3koo_", role: "Majitel", roleColor: "owner" as const },
       { name: "zixq", role: "Admin", roleColor: "admin" as const },
       { name: "nilkoush", role: "Admin", roleColor: "admin" as const },
       { name: "simiik", role: "Admin", roleColor: "admin" as const },
