@@ -7,8 +7,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 const stats = [
   { icon: <Server className="w-8 h-8" />, value: "24/7", label: "Online" },
   { icon: <Globe className="w-8 h-8" />, value: "CZ/SK", label: "Komunita" },
-  { icon: <Gamepad2 className="w-8 h-8" />, value: "1.8-1.21", label: "Verze" },
-  { icon: <Star className="w-8 h-8" />, value: "1000+", label: "Hráčů denně" },
+  { icon: <Gamepad2 className="w-8 h-8" />, value: "1.20-1.21", label: "Verze" },
 ];
 
 const infoSections = [
