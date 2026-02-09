@@ -8,19 +8,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const gameModes = [
   {
-    icon: <Mountain className="w-7 h-7" />,
-    title: "Survival",
-    description: "Klasický survival mód s unikátními vylepšeními. Stavěj, těž a přežij v otevřeném světě."
-  },
-  {
-    icon: <Pickaxe className="w-7 h-7" />,
-    title: "Oneblock",
-    description: "Začni na jednom bloku a rozšiřuj svůj ostrov. Postupně odemykej nové materiály a výzvy."
-  },
-  {
     icon: <Skull className="w-7 h-7" />,
-    title: "Anarchy",
-    description: "Bez pravidel, bez limitů. Buduj impéria, zakládej klany a bojuj o nadvládu."
+    title: "Pratice",
+    description: "Propracovaný practice na CPvP, klasické swordy, npoty, a mnoho dalšího!"
   }
 ];
 
