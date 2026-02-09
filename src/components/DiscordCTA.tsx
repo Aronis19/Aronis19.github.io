@@ -34,14 +34,15 @@ export const DiscordCTA = () => {
                 <ul className="space-y-3 mb-8">
                   {features.map((feature, index) => (
                     <li key={index} className="flex items-center gap-3 text-foreground">
-                      <span className="text-primary">{feature.icon}</span>
+                      {/* Tady jsme nastavili barvu ikony */}
+                      <span style={{ color: "#00c3ff" }}>{feature.icon}</span>
                       <span>{feature.text}</span>
                     </li>
                   ))}
                 </ul>
 
                 <Button size="lg" className="gap-2 font-semibold">
-                  <MessageCircle className="w-5 h-5" />
+                  <MessageCircle className="w-5 h-5" style={{ color: "#00c3ff" }} />
                   Připojit se na Discord
                 </Button>
               </div>
@@ -49,7 +50,7 @@ export const DiscordCTA = () => {
               {/* Discord Illustration */}
               <div className="hidden md:flex items-center justify-center">
                 <div className="w-48 h-48 rounded-full bg-primary/20 flex items-center justify-center animate-pulse-glow">
-                  <MessageCircle className="w-24 h-24 text-primary" />
+                  <MessageCircle className="w-24 h-24" style={{ color: "#00c3ff" }} />
                 </div>
               </div>
             </div>
