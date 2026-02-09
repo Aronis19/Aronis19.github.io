@@ -13,41 +13,30 @@ const teamSections = [
     title: "Vedení serveru",
     members: [
       { name: "D3koo_", role: "Majitel", roleColor: "owner" as const },
-      { name: "zixq", role: "Admin", roleColor: "admin" as const },
-      { name: "nilkoush", role: "Admin", roleColor: "admin" as const },
-      { name: "simiik", role: "Admin", roleColor: "admin" as const },
-      { name: "Sanous", role: "Admin", roleColor: "admin" as const },
-      { name: "Ledovec", role: "Admin", roleColor: "admin" as const },
     ]
   },
   {
     title: "Vedení týmu",
     members: [
-      { name: "PlayHrac", role: "Hlavní Helper", roleColor: "helper" as const },
+      { name: "???", role: "Hlavní Helper", roleColor: "helper" as const },
     ]
   },
   {
     title: "Technický tým",
     members: [
-      { name: "darLP", role: "Senior Technik", roleColor: "tech" as const },
-      { name: "Michalovec", role: "Senior Technik", roleColor: "tech" as const },
-      { name: "CZghost", role: "Technik", roleColor: "tech" as const },
+      { name: "???", role: "Senior Technik", roleColor: "tech" as const },
     ]
   },
   {
     title: "Builder tým",
     members: [
-      { name: "Craftix", role: "Hlavní Builder", roleColor: "builder" as const },
-      { name: "SkyBuilder", role: "Builder", roleColor: "builder" as const },
+      { name: "???", role: "Hlavní Builder", roleColor: "builder" as const },
     ]
   },
   {
     title: "Helper tým",
     members: [
-      { name: "Helper1", role: "Helper", roleColor: "helper" as const },
-      { name: "Helper2", role: "Helper", roleColor: "helper" as const },
-      { name: "Helper3", role: "Helper", roleColor: "helper" as const },
-      { name: "Helper4", role: "Helper", roleColor: "helper" as const },
+      { name: "1", role: "Helper", roleColor: "helper" as const },
     ]
   }
 ];
