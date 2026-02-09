@@ -10,7 +10,7 @@ interface TeamCardProps {
 const roleColors = {
   owner: "bg-[#FF0000] text-white",
   admin: "bg-red-500 text-white",
-  helper: "bg-amber-500 text-amber-950",
+  helper: "bg-[#00ff22] text-white",
   tech: "bg-blue-500 text-blue-950",
   builder: "bg-purple-500 text-purple-950",
   default: "bg-secondary text-secondary-foreground",
