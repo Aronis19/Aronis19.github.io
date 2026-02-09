@@ -18,7 +18,7 @@ const infoSections = [
       <ol class="list-decimal list-inside space-y-2 text-muted-foreground">
         <li>Otevři Minecraft (Java Edition)</li>
         <li>Klikni na "Multiplayer" a pak "Add Server"</li>
-        <li>Zadej adresu serveru: <span class="text-primary font-mono">mc.rajce.pro</span></li>
+        <li>Zadej adresu serveru: <span class="text-primary font-mono">mc.reoxx.cz</span></li>
         <li>Klikni "Done" a připoj se!</li>
       </ol>
     `
