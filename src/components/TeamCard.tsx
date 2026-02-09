@@ -8,7 +8,7 @@ interface TeamCardProps {
 }
 
 const roleColors = {
-  owner: "bg-red-500 text-white",
+  owner: "bg-[#FF0000] text-white",
   admin: "bg-red-500 text-white",
   helper: "bg-amber-500 text-amber-950",
   tech: "bg-blue-500 text-blue-950",
