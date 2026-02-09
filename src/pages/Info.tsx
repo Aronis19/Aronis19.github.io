@@ -27,8 +27,8 @@ const infoSections = [
     title: "Podporované verze",
     content: `
       <p class="text-muted-foreground mb-4">
-        Náš server podporuje širokou škálu verzí Minecraftu, od 1.8 až po nejnovější 1.21. 
-        Pro nejlepší zážitek doporučujeme hrát na verzi 1.20.4 nebo vyšší.
+        Náš server podporuje širokou škálu verzí Minecraftu, od 1.20.x až po nejnovější 1.21.x 
+        Pro nejlepší zážitek doporučujeme hrát na verzi 1.21.1 nebo vyšší.
       </p>
       <div class="flex flex-wrap gap-2">
         <span class="px-3 py-1 bg-secondary rounded-full text-sm">1.8.x</span>
@@ -42,23 +42,23 @@ const infoSections = [
     `
   },
   {
-    title: "VIP výhody",
+    title: "Creator Výhody",
     content: `
       <ul class="space-y-3 text-muted-foreground">
         <li class="flex items-center gap-2">
-          <span class="text-primary">✓</span> Přístup k exkluzivním příkazům
+          <span class="text-primary">✓</span> Prefix Creator a role na discordu.
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-primary">✓</span> Více homů a warpů
+          <span class="text-primary">✓</span> Možnost organizovat vlastní event/soutěže na našem serveru.
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-primary">✓</span> Speciální VIP místnosti na Discordu
+          <span class="text-primary">✓</span> Všechny VIP výhody včetně nejlepšího VIP.
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-primary">✓</span> Prioritní podpora
+          <span class="text-primary">✓</span> Prioritní podpora.
         </li>
         <li class="flex items-center gap-2">
-          <span class="text-primary">✓</span> Unikátní prefixy a kosmetika
+          <span class="text-primary">✓</span> Unikátní prefixy a kosmetika pouze pro Creatory.
         </li>
       </ul>
     `
