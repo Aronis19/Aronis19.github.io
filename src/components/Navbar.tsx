@@ -58,7 +58,7 @@ export const Navbar = () => {
 
           {/* Shop Button */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="default" className="gap-2">
+            <Button className="gap-2 bg-[#00c3ff] hover:bg-[#00a8dd] text-white transition-colors">
               <ShoppingCart className="w-4 h-4" />
               Obchod
             </Button>
@@ -92,7 +92,7 @@ export const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button variant="default" className="mt-2 gap-2">
+              <Button className="mt-2 gap-2 bg-[#00c3ff] hover:bg-[#00a8dd] text-white transition-colors">
                 <ShoppingCart className="w-4 h-4" />
                 Obchod
               </Button>
