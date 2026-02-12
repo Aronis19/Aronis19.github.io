@@ -3,24 +3,24 @@ import { MessageCircle, Users, Bell, Headphones } from "lucide-react";
 
 export const DiscordCTA = () => {
   const features = [
-    { icon: <Users className="w-5 h-5" />, text: "Komunikuj s členy týmu" },
-    { icon: <Bell className="w-5 h-5" />, text: "Buď první u novinek" },
-    { icon: <Headphones className="w-5 h-5" />, text: "Využívej support systém" },
-    { icon: <MessageCircle className="w-5 h-5" />, text: "Hlasové místnosti" },
+    { icon: Users, text: "Komunikuj s členy týmu" },
+    { icon: Bell, text: "Buď první u novinek" },
+    { icon: Headphones, text: "Využívej support systém" },
+    { icon: MessageCircle, text: "Hlasové místnosti" },
   ];
 
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
-      
+
       <div className="container mx-auto px-4 relative">
         <div className="max-w-4xl mx-auto">
           <div className="bg-card rounded-2xl p-8 md:p-12 border border-border relative overflow-hidden">
             {/* Decorative Elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/5 rounded-full blur-2xl" />
-            
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#00c3ff]/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-[#00c3ff]/5 rounded-full blur-2xl" />
+
             <div className="relative grid md:grid-cols-2 gap-8 items-center">
               {/* Text Content */}
               <div>
@@ -30,27 +30,32 @@ export const DiscordCTA = () => {
                 <p className="text-muted-foreground mb-6">
                   Chceš být mezi prvními, kteří se dozví o novinkách? Připoj se na náš Discord server!
                 </p>
-                
+
                 <ul className="space-y-3 mb-8">
-                  {features.map((feature, index) => (
-                    <li key={index} className="flex items-center gap-3 text-foreground">
-                      {/* Tady jsme nastavili barvu ikony */}
-                      <span style={{ color: "#00c3ff" }}>{feature.icon}</span>
-                      <span>{feature.text}</span>
-                    </li>
-                  ))}
+                  {features.map((feature, index) => {
+                    const Icon = feature.icon;
+                    return (
+                      <li key={index} className="flex items-center gap-3 text-foreground">
+                        <Icon className="w-5 h-5 text-[#00c3ff]" />
+                        <span>{feature.text}</span>
+                      </li>
+                    );
+                  })}
                 </ul>
 
-                <Button size="lg" className="gap-2 font-semibold">
-                  <MessageCircle className="w-5 h-5" style={{ color: "#00c3ff" }} />
+                <Button
+                  size="lg"
+                  className="gap-2 font-semibold bg-[#00c3ff] hover:bg-[#00a8dd] text-white transition-colors"
+                >
+                  <MessageCircle className="w-5 h-5" />
                   Připojit se na Discord
                 </Button>
               </div>
 
               {/* Discord Illustration */}
               <div className="hidden md:flex items-center justify-center">
-                <div className="w-48 h-48 rounded-full bg-primary/20 flex items-center justify-center animate-pulse-glow">
-                  <MessageCircle className="w-24 h-24" style={{ color: "#00c3ff" }} />
+                <div className="w-48 h-48 rounded-full bg-[#00c3ff]/20 flex items-center justify-center animate-pulse-glow">
+                  <MessageCircle className="w-24 h-24 text-[#00c3ff]" />
                 </div>
               </div>
             </div>
